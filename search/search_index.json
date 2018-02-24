@@ -2,23 +2,58 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Welcome to BlackJack\n\n\nBlog\u575a\u6301\u6bcf\u6708\u66f4\u65b0\uff0c\u603b\u7ed3\u548c\u8bb0\u5f55\uff0c\u5305\u62ec\u5de5\u4f5c\u548c\u751f\u6d3b\u3002\n\n\n2018\u5e742\u6708\n\n\n1. \u642d\u5efa\u5b8c\u6210\u65b0\u7684Blog\n2. \u5f00\u59cb\u5b66\u4e60\u548c\u8bb0\u5f55Cortex-M0\u5185\u6838",
             "title": "Home"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/#welcome-to-blackjack",
+            "text": "Blog\u575a\u6301\u6bcf\u6708\u66f4\u65b0\uff0c\u603b\u7ed3\u548c\u8bb0\u5f55\uff0c\u5305\u62ec\u5de5\u4f5c\u548c\u751f\u6d3b\u3002",
+            "title": "Welcome to BlackJack"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/#20182",
+            "text": "1. \u642d\u5efa\u5b8c\u6210\u65b0\u7684Blog\n2. \u5f00\u59cb\u5b66\u4e60\u548c\u8bb0\u5f55Cortex-M0\u5185\u6838",
+            "title": "2018\u5e742\u6708"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/waiting/",
+            "text": "In the Building.....",
+            "title": "\u4e2d\u65ad"
+        },
+        {
+            "location": "/waiting/#in-the-building",
+            "text": "",
+            "title": "In the Building....."
+        },
+        {
+            "location": "/waiting/",
+            "text": "In the Building.....",
+            "title": "Cortex-M3/4"
+        },
+        {
+            "location": "/waiting/#in-the-building",
+            "text": "",
+            "title": "In the Building....."
+        },
+        {
+            "location": "/waiting/",
+            "text": "In the Building.....",
+            "title": "STM32L0\u7cfb\u5217"
+        },
+        {
+            "location": "/waiting/#in-the-building",
+            "text": "",
+            "title": "In the Building....."
+        },
+        {
+            "location": "/waiting/",
+            "text": "In the Building.....",
+            "title": "Software"
+        },
+        {
+            "location": "/waiting/#in-the-building",
+            "text": "",
+            "title": "In the Building....."
         },
         {
             "location": "/about/",
@@ -59,56 +94,6 @@
             "location": "/about/#_1",
             "text": "\u5982\u4f55\u642d\u5efa\u5b89\u4fe1\u53ef ESP \u7cfb\u5217\u4e00\u4f53\u5316\u5f00\u53d1\u73af\u5883  \u5982\u4f55\u4f7f\u7528\u5b89\u4fe1\u53ef ESP \u7cfb\u5217\u4e00\u4f53\u5316\u5f00\u53d1\u73af\u5883",
             "title": "\u53c2\u8003\u6587\u732e"
-        },
-        {
-            "location": "/A/a/",
-            "text": "Vanum motus\n\n\nIlle utque\n\n\nLorem markdownum potentes aesculus lignum deae. Dolet Lelex gratia Anaxaretes\nquoque, quaeritur convexi Themis Symplegadas turba\n\npariter\n, ignarus ad: quanto genetrix anili. Non\n\nomnes\n fames in haustis mixta redeuntis\nartus; disparibus it Somne gravatos in addunt curam?\n\n\n\n\nMembraque claro famulus iunctorum omnia\n\n\nCur tuo Sipylumque et modo axe aequalis\n\n\nHarundine saucius\n\n\nLux dedit malo\n\n\nFeroci per dissipat ignes adhuc ardent summis\n\n\nDiva vivit arvis quod cui genu miserande\n\n\n\n\nIn toto Heliades Quirini admovet \nCyllene oblitae\n: fuit excipit, gener optatis\ncapit orbem. Protentaque pars granum per Pyramus quoque nostris. Rima obliquaque\nartes: acclinia suo a patrios comae; inmensos o rubetis mollia, me ubi. In\nfinemque hinc mea cacumine parum nunc, concita longas. Potuissent \nlitus\n.\n\n\nDea mitti spectata ea functa tela ornata\n\n\nErysicthonis surgit adnuimusque tori Oeclides. Fuge gloria albet modo habet suae\nsceleris has multis \nflectebat moratus\n mirata \net circumstantes\n Troiana gaudia\nroganti: alite sonantia. Et ipso. Iacet plumbea. Vota teste \nhastilia parentum\n;\nsub utrimque cruorem valuere.\n\n\nMea horto \nad aratri\n silet sufficit insiluit domum tot, humo illum vocati\ncursus, huc munera cessura, non. Munera sed frustraque vellet. A utrumque mittit\net suos est. Certior gigantas. Alis tergo curvamine satus verba caeli quoque\nviator Atlantis ipsa, nec ad certum Iliacas umbra ferox.\n\n\n\n\nMassae exemplum fragore\n\n\nRelatis genitor hospitis verbis\n\n\nUbi ferox puerum operisque septem\n\n\n\n\nAccipiunt frustraque proximus qui quae facit Thetis\n\n\nQua inter orandus Peneidas et \ndata ipse ius\n Aeneae \nvestras admoto\n Rhodope\nByblis, Echo! Aurum est structa, tetigere; aptius \nsilva coeperat\nmersum\n quoniam hic; tantum modo, dic nam aevum!\nLoquentem \ncertaminis tegis exitus\n arces, Tritonia adicit, ipsos, marmore, nec.\n\n\nfreewareFormulaExploit = windowWordModel;\npng_path_abend(domain(wpa, deprecatedDataPiracy), biometrics_threading(\n        checksumFaviconSearch, uri_architecture_dimm, thyristorNewline),\n        snippetDdrLanguage);\nvar oop = slashdot_reimage_left(pageScrapingGigabit(2, basebandScrollDual(\n        camelcaseScrapingCdma, caps_menu_powerpoint,\n        processorClickOptical)),\n        url_osi_mca.dv.bittorrent_middleware_multiplatform(adslMeme,\n        icio_social) + dvdAtmStart);\nif (bootInputSync == 14 + 3) {\n    heatPerlPersonal(ispRetina, esports.pupCycle.aluSsidBuffer(1, 5, 3));\n    jsf.hard += leopard + natComponentServer + username;\n} else {\n    openKerning(2, fileBox * browser);\n    docking.cps = link(hard_sdk, leopard_ide - beta);\n}\nmatrix *= skyscraperPrinter;\n\n\n\nParum ibit mirum paratae latus. \nBarbaque sole\nsine\n quod \nlotos\npectusque\n siste odore, mendaci visaque\nrelinqui Aeacides violentique matri, rata. Deae arbitrium texerat veloci\n\npalluit Pergama\n secantes se \nPromethides fluit\n, et, quem digitis. Moveri\nIovi sub adorandum pavidam membra et puto ipsum ter?",
-            "title": "aa"
-        },
-        {
-            "location": "/A/a/#vanum-motus",
-            "text": "",
-            "title": "Vanum motus"
-        },
-        {
-            "location": "/A/a/#ille-utque",
-            "text": "Lorem markdownum potentes aesculus lignum deae. Dolet Lelex gratia Anaxaretes\nquoque, quaeritur convexi Themis Symplegadas turba pariter , ignarus ad: quanto genetrix anili. Non omnes  fames in haustis mixta redeuntis\nartus; disparibus it Somne gravatos in addunt curam?   Membraque claro famulus iunctorum omnia  Cur tuo Sipylumque et modo axe aequalis  Harundine saucius  Lux dedit malo  Feroci per dissipat ignes adhuc ardent summis  Diva vivit arvis quod cui genu miserande   In toto Heliades Quirini admovet  Cyllene oblitae : fuit excipit, gener optatis\ncapit orbem. Protentaque pars granum per Pyramus quoque nostris. Rima obliquaque\nartes: acclinia suo a patrios comae; inmensos o rubetis mollia, me ubi. In\nfinemque hinc mea cacumine parum nunc, concita longas. Potuissent  litus .",
-            "title": "Ille utque"
-        },
-        {
-            "location": "/A/a/#dea-mitti-spectata-ea-functa-tela-ornata",
-            "text": "Erysicthonis surgit adnuimusque tori Oeclides. Fuge gloria albet modo habet suae\nsceleris has multis  flectebat moratus  mirata  et circumstantes  Troiana gaudia\nroganti: alite sonantia. Et ipso. Iacet plumbea. Vota teste  hastilia parentum ;\nsub utrimque cruorem valuere.  Mea horto  ad aratri  silet sufficit insiluit domum tot, humo illum vocati\ncursus, huc munera cessura, non. Munera sed frustraque vellet. A utrumque mittit\net suos est. Certior gigantas. Alis tergo curvamine satus verba caeli quoque\nviator Atlantis ipsa, nec ad certum Iliacas umbra ferox.   Massae exemplum fragore  Relatis genitor hospitis verbis  Ubi ferox puerum operisque septem",
-            "title": "Dea mitti spectata ea functa tela ornata"
-        },
-        {
-            "location": "/A/a/#accipiunt-frustraque-proximus-qui-quae-facit-thetis",
-            "text": "Qua inter orandus Peneidas et  data ipse ius  Aeneae  vestras admoto  Rhodope\nByblis, Echo! Aurum est structa, tetigere; aptius  silva coeperat\nmersum  quoniam hic; tantum modo, dic nam aevum!\nLoquentem  certaminis tegis exitus  arces, Tritonia adicit, ipsos, marmore, nec.  freewareFormulaExploit = windowWordModel;\npng_path_abend(domain(wpa, deprecatedDataPiracy), biometrics_threading(\n        checksumFaviconSearch, uri_architecture_dimm, thyristorNewline),\n        snippetDdrLanguage);\nvar oop = slashdot_reimage_left(pageScrapingGigabit(2, basebandScrollDual(\n        camelcaseScrapingCdma, caps_menu_powerpoint,\n        processorClickOptical)),\n        url_osi_mca.dv.bittorrent_middleware_multiplatform(adslMeme,\n        icio_social) + dvdAtmStart);\nif (bootInputSync == 14 + 3) {\n    heatPerlPersonal(ispRetina, esports.pupCycle.aluSsidBuffer(1, 5, 3));\n    jsf.hard += leopard + natComponentServer + username;\n} else {\n    openKerning(2, fileBox * browser);\n    docking.cps = link(hard_sdk, leopard_ide - beta);\n}\nmatrix *= skyscraperPrinter;  Parum ibit mirum paratae latus.  Barbaque sole\nsine  quod  lotos\npectusque  siste odore, mendaci visaque\nrelinqui Aeacides violentique matri, rata. Deae arbitrium texerat veloci palluit Pergama  secantes se  Promethides fluit , et, quem digitis. Moveri\nIovi sub adorandum pavidam membra et puto ipsum ter?",
-            "title": "Accipiunt frustraque proximus qui quae facit Thetis"
-        },
-        {
-            "location": "/A/b/",
-            "text": "Vanum motus\n\n\nIlle utque\n\n\nLorem markdownum potentes aesculus lignum deae. Dolet Lelex gratia Anaxaretes\nquoque, quaeritur convexi Themis Symplegadas turba\n\npariter\n, ignarus ad: quanto genetrix anili. Non\n\nomnes\n fames in haustis mixta redeuntis\nartus; disparibus it Somne gravatos in addunt curam?\n\n\n\n\nMembraque claro famulus iunctorum omnia\n\n\nCur tuo Sipylumque et modo axe aequalis\n\n\nHarundine saucius\n\n\nLux dedit malo\n\n\nFeroci per dissipat ignes adhuc ardent summis\n\n\nDiva vivit arvis quod cui genu miserande\n\n\n\n\nIn toto Heliades Quirini admovet \nCyllene oblitae\n: fuit excipit, gener optatis\ncapit orbem. Protentaque pars granum per Pyramus quoque nostris. Rima obliquaque\nartes: acclinia suo a patrios comae; inmensos o rubetis mollia, me ubi. In\nfinemque hinc mea cacumine parum nunc, concita longas. Potuissent \nlitus\n.\n\n\nDea mitti spectata ea functa tela ornata\n\n\nErysicthonis surgit adnuimusque tori Oeclides. Fuge gloria albet modo habet suae\nsceleris has multis \nflectebat moratus\n mirata \net circumstantes\n Troiana gaudia\nroganti: alite sonantia. Et ipso. Iacet plumbea. Vota teste \nhastilia parentum\n;\nsub utrimque cruorem valuere.\n\n\nMea horto \nad aratri\n silet sufficit insiluit domum tot, humo illum vocati\ncursus, huc munera cessura, non. Munera sed frustraque vellet. A utrumque mittit\net suos est. Certior gigantas. Alis tergo curvamine satus verba caeli quoque\nviator Atlantis ipsa, nec ad certum Iliacas umbra ferox.\n\n\n\n\nMassae exemplum fragore\n\n\nRelatis genitor hospitis verbis\n\n\nUbi ferox puerum operisque septem\n\n\n\n\nAccipiunt frustraque proximus qui quae facit Thetis\n\n\nQua inter orandus Peneidas et \ndata ipse ius\n Aeneae \nvestras admoto\n Rhodope\nByblis, Echo! Aurum est structa, tetigere; aptius \nsilva coeperat\nmersum\n quoniam hic; tantum modo, dic nam aevum!\nLoquentem \ncertaminis tegis exitus\n arces, Tritonia adicit, ipsos, marmore, nec.\n\n\nfreewareFormulaExploit = windowWordModel;\npng_path_abend(domain(wpa, deprecatedDataPiracy), biometrics_threading(\n        checksumFaviconSearch, uri_architecture_dimm, thyristorNewline),\n        snippetDdrLanguage);\nvar oop = slashdot_reimage_left(pageScrapingGigabit(2, basebandScrollDual(\n        camelcaseScrapingCdma, caps_menu_powerpoint,\n        processorClickOptical)),\n        url_osi_mca.dv.bittorrent_middleware_multiplatform(adslMeme,\n        icio_social) + dvdAtmStart);\nif (bootInputSync == 14 + 3) {\n    heatPerlPersonal(ispRetina, esports.pupCycle.aluSsidBuffer(1, 5, 3));\n    jsf.hard += leopard + natComponentServer + username;\n} else {\n    openKerning(2, fileBox * browser);\n    docking.cps = link(hard_sdk, leopard_ide - beta);\n}\nmatrix *= skyscraperPrinter;\n\n\n\nParum ibit mirum paratae latus. \nBarbaque sole\nsine\n quod \nlotos\npectusque\n siste odore, mendaci visaque\nrelinqui Aeacides violentique matri, rata. Deae arbitrium texerat veloci\n\npalluit Pergama\n secantes se \nPromethides fluit\n, et, quem digitis. Moveri\nIovi sub adorandum pavidam membra et puto ipsum ter?",
-            "title": "b"
-        },
-        {
-            "location": "/A/b/#vanum-motus",
-            "text": "",
-            "title": "Vanum motus"
-        },
-        {
-            "location": "/A/b/#ille-utque",
-            "text": "Lorem markdownum potentes aesculus lignum deae. Dolet Lelex gratia Anaxaretes\nquoque, quaeritur convexi Themis Symplegadas turba pariter , ignarus ad: quanto genetrix anili. Non omnes  fames in haustis mixta redeuntis\nartus; disparibus it Somne gravatos in addunt curam?   Membraque claro famulus iunctorum omnia  Cur tuo Sipylumque et modo axe aequalis  Harundine saucius  Lux dedit malo  Feroci per dissipat ignes adhuc ardent summis  Diva vivit arvis quod cui genu miserande   In toto Heliades Quirini admovet  Cyllene oblitae : fuit excipit, gener optatis\ncapit orbem. Protentaque pars granum per Pyramus quoque nostris. Rima obliquaque\nartes: acclinia suo a patrios comae; inmensos o rubetis mollia, me ubi. In\nfinemque hinc mea cacumine parum nunc, concita longas. Potuissent  litus .",
-            "title": "Ille utque"
-        },
-        {
-            "location": "/A/b/#dea-mitti-spectata-ea-functa-tela-ornata",
-            "text": "Erysicthonis surgit adnuimusque tori Oeclides. Fuge gloria albet modo habet suae\nsceleris has multis  flectebat moratus  mirata  et circumstantes  Troiana gaudia\nroganti: alite sonantia. Et ipso. Iacet plumbea. Vota teste  hastilia parentum ;\nsub utrimque cruorem valuere.  Mea horto  ad aratri  silet sufficit insiluit domum tot, humo illum vocati\ncursus, huc munera cessura, non. Munera sed frustraque vellet. A utrumque mittit\net suos est. Certior gigantas. Alis tergo curvamine satus verba caeli quoque\nviator Atlantis ipsa, nec ad certum Iliacas umbra ferox.   Massae exemplum fragore  Relatis genitor hospitis verbis  Ubi ferox puerum operisque septem",
-            "title": "Dea mitti spectata ea functa tela ornata"
-        },
-        {
-            "location": "/A/b/#accipiunt-frustraque-proximus-qui-quae-facit-thetis",
-            "text": "Qua inter orandus Peneidas et  data ipse ius  Aeneae  vestras admoto  Rhodope\nByblis, Echo! Aurum est structa, tetigere; aptius  silva coeperat\nmersum  quoniam hic; tantum modo, dic nam aevum!\nLoquentem  certaminis tegis exitus  arces, Tritonia adicit, ipsos, marmore, nec.  freewareFormulaExploit = windowWordModel;\npng_path_abend(domain(wpa, deprecatedDataPiracy), biometrics_threading(\n        checksumFaviconSearch, uri_architecture_dimm, thyristorNewline),\n        snippetDdrLanguage);\nvar oop = slashdot_reimage_left(pageScrapingGigabit(2, basebandScrollDual(\n        camelcaseScrapingCdma, caps_menu_powerpoint,\n        processorClickOptical)),\n        url_osi_mca.dv.bittorrent_middleware_multiplatform(adslMeme,\n        icio_social) + dvdAtmStart);\nif (bootInputSync == 14 + 3) {\n    heatPerlPersonal(ispRetina, esports.pupCycle.aluSsidBuffer(1, 5, 3));\n    jsf.hard += leopard + natComponentServer + username;\n} else {\n    openKerning(2, fileBox * browser);\n    docking.cps = link(hard_sdk, leopard_ide - beta);\n}\nmatrix *= skyscraperPrinter;  Parum ibit mirum paratae latus.  Barbaque sole\nsine  quod  lotos\npectusque  siste odore, mendaci visaque\nrelinqui Aeacides violentique matri, rata. Deae arbitrium texerat veloci palluit Pergama  secantes se  Promethides fluit , et, quem digitis. Moveri\nIovi sub adorandum pavidam membra et puto ipsum ter?",
-            "title": "Accipiunt frustraque proximus qui quae facit Thetis"
         }
     ]
 }
