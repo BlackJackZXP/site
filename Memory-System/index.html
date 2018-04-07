@@ -72,7 +72,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Embedded <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -82,8 +82,8 @@
     <ul class="dropdown-menu">
         
             
-<li >
-    <a href="../Memory-System/">存储系统</a>
+<li class="active">
+    <a href="./">存储系统</a>
 </li>
 
         
@@ -129,8 +129,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">About</a>
+                    <li >
+                        <a href="../about/">About</a>
                     </li>
                 
                 
@@ -143,12 +143,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../Coding-Standard/">
+                        <a rel="next" href="..">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../waiting/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -164,17 +164,60 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#about">About</a></li>
+        <li class="first-level active"><a href="#_1">存储系统</a></li>
+            <li class="second-level"><a href="#1-code">1. 代码区域 Code</a></li>
+                
+            <li class="second-level"><a href="#2-sram">2. SRAM 区域</a></li>
+                
+            <li class="second-level"><a href="#3">3. 外设区域</a></li>
+                
+            <li class="second-level"><a href="#4-ram">4. RAM 区域</a></li>
+                
+            <li class="second-level"><a href="#5">5. 设备区域</a></li>
+                
+            <li class="second-level"><a href="#6-ppb">6. 内部私有外设总线 PPB</a></li>
+                
+            <li class="second-level"><a href="#7">7. 保留存储器空间</a></li>
+                
+            <li class="second-level"><a href="#_2">数据存储</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<p><br /><br /><br /><br /></p>
-<h2 id="about">About</h2>
-<p>engineer，90后产物，一家外企工作。</p>
-<p>喜欢记录，之前自己写博客部署服务器，但是需要付费和维护，相对比较麻烦。后来在公共平台写作，现在希望将所有文章迁移到Github上，并使用Mkdocs生成静态网页，免去了一切维护。</p>
-<p>文章也会同步到 <a href="https://www.jianshu.com/u/0c5e283927d7">简书</a>，欢迎关注。</p>
-<p>有问题请发送邮箱 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#66;&#108;&#97;&#99;&#107;&#74;&#97;&#99;&#107;&#90;&#88;&#80;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#66;&#108;&#97;&#99;&#107;&#74;&#97;&#99;&#107;&#90;&#88;&#80;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>.</p></div>
+<h1 id="_1">存储系统</h1>
+<p>Cortex-M0 处理器具有两个总线接口，32位系统总线和32位地址总线，所以可以访问4GB的地址空间。4GB存储空间被划分为以下几个区域：</p>
+<p><img alt="" src="../image/ms1.png" /></p>
+<h3 id="1-code">1. 代码区域 Code</h3>
+<p>代码区域为512MB字节，主要用于存储程序代码，其中也包括映射的一部分中断向量表。</p>
+<h3 id="2-sram">2. SRAM 区域</h3>
+<p>存储器映射的第二块512MB，主要用于数据存储，包括栈和堆。在要求高速运行代码的情况下，可以将Code区或外部存储器代码代码复制到SRAM里并执行，调高运行效率。</p>
+<h3 id="3">3. 外设区域</h3>
+<p>512MB，主要用于外设以及数据存储。这段区域不可以执行代码。</p>
+<h3 id="4-ram">4. RAM 区域</h3>
+<p>RAM两块区域，总共1GB，用于数据存储，可执行代码。两个区域拥有不同的属性.</p>
+<h3 id="5">5. 设备区域</h3>
+<p>两个512MB，其中各Soc开发商可以在这段区域定制外设寄存器，如UART，IO，SPI等。也可用于数据存储，但不可执行代码。</p>
+<h3 id="6-ppb">6. 内部私有外设总线 PPB</h3>
+<p>1M空间，不可执行代码，用于处理器内部的外设，包括系统控制空间SCS，中断控制器NVIC，调试部件等。
+0xE000E000~0xE000EFFF段为系统控制空间SCS，其包括中断控制寄存器，系统控制寄存器和调试控制寄存器等。SCS中还包含一个可选定时器SysTick。</p>
+<h3 id="7">7. 保留存储器空间</h3>
+<p>511MB，预留给供应商。</p>
+<p>典型的Cortex-M0系统存储器映射：</p>
+<ol>
+<li>Flash 存储器，用于程序代码</li>
+<li>内部SRAM</li>
+<li>内部外设</li>
+<li>外部存储器接口，用于外部存储器和外部外设</li>
+<li>其他外部外设接口</li>
+</ol>
+<p><img alt="" src="../image/ms2.png" /></p>
+<h2 id="_2">数据存储</h2>
+<p>程序代码一般放在片上flash存储器，也就可以放在外部存储器。对应Cortex-M0来说，系统复位启动后，首先访问0地址的向量表，取得栈MSP的初始值和复位向量，然后从复位向量开始执行程序（关于启动流程和Boot loader请参考<a href="">启动和Boot</a>）。</p>
+<p>用户可以编写程序在flash中，代码从flash执行。但是芯片在出厂时没有代码就无法运行，所有一般芯片厂商 都会在flash中单独划分区域来设置一个Boot loader，这样系统在复位后首先执行的是Boot loader，其主要作用是初始化基本运行环境，引导用户程序。当系统存在多个启动入口时，Boot loader是通过重映射实现的，这样Boot loader在上电时会根据不同条件重映射到不同程序入口，这样就形成了多种存储器启动。存储器映射的切换由硬件寄存器控制，Boot loader会设置这些寄存器。</p>
+<p><img alt="" src="../image/ms3.png" /></p>
+<p>也可以将程序重映射到SRAM中，这样提高了执行速度。例如，微控制器在高时钟频率下执行，但是flash的执行速度较低时，程序在执行时就需要插入等待状态。但在SRAM中执行就无需等待。</p>
+<p><img alt="" src="../image/ms4.png" /></p></div>
         
     </div>
 
